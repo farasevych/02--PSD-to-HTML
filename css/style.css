@@ -22,7 +22,7 @@ a {
 }
 
 .main-nav li {
-	float: left;
+	float: right;
 	display: inline;
 	margin-right: 40px;
 	margin-top: 50px;
