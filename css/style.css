@@ -17,9 +17,20 @@ a {
 	background-color: #141a1d;
 }
 
+.main-nav {
+	font-size: 24px;
+}
+
 .main-nav li {
 	float: left;
 	display: inline;
+	margin-right: 40px;
+	margin-top: 50px;
+	margin-bottom: 42px;
+}
+
+.main-nav a {
+	color: #637076;
 }
 
 .index-logo {
