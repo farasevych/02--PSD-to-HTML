@@ -24,3 +24,7 @@ a {
 .index-logo {
 	float: left;
 }
+
+.dropdown-content {
+	display: none;
+}
