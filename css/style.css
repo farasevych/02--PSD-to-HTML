@@ -40,3 +40,27 @@ a {
 .dropdown-content {
 	display: none;
 }
+
+.slider {
+	width: 1920px;
+	height: 700px;
+}
+
+.question-section{
+	width: 1920px;
+	height: 197px;
+	background-color: #ff5722;
+}
+
+.index-content {
+
+	background: url(../img/index-content-bg.jpg) 50% 0;
+	background-size: cover;
+}
+
+.iner-index-content {
+	width: 1920px;
+	height: 1130px;
+}
+
+/* задать цвет фона картинок */

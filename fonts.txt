@@ -1,0 +1,11 @@
+lato 
+	regular
+	light
+	black
+	bold
+
+open sans
+	light
+	extrabold
+	bold
+	regular
