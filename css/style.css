@@ -33,11 +33,12 @@ body {
 .main-nav {
 	float: right;
 	padding-top: 50px;
+	margin-right: 96px;
 }
 
 .main-nav li {
 	display: inline;
-	margin-left: 40px;
+	padding-left: 40px;
 	margin-top: 50px;
 	margin-bottom: 42px;
 	/* float: right; */	
@@ -49,6 +50,10 @@ body {
 	font-weight: 'regular';
 	text-transform: uppercase;
 	font-size: 24px;
+}
+
+.main-nav a:hover {
+	color: #fff;
 }
 
 .dropdown-content a {
