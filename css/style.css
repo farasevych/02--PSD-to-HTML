@@ -12,9 +12,13 @@ a {
 }
 
 .main-header {
+	background-color: #141a1d;
+	background-size: cover;
+}
+
+.header-container {
 	width: 1920px;
 	height: 110px;
-	background-color: #141a1d;
 }
 
 .main-nav {
@@ -47,18 +51,21 @@ a {
 }
 
 .question-section{
+	background-color: #ff5722;
+	background-size: cover;
+}
+
+.question-section-container {
 	width: 1920px;
 	height: 197px;
-	background-color: #ff5722;
 }
 
 .index-content {
-
 	background: url(../img/index-content-bg.jpg) 50% 0;
 	background-size: cover;
 }
 
-.iner-index-content {
+.main-container {
 	width: 1920px;
 	height: 1130px;
 }
