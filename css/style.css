@@ -16,8 +16,7 @@ body {
 }
 
 .main-header {
-	background-color: #141a1d;
-	background-size: cover;
+	background-color: #141a1d;	
 }
 
 .header-container {
@@ -27,16 +26,21 @@ body {
     margin-right: auto;
 }
 
+.index-logo {
+	float: left;
+}
+
 .main-nav {
-	font-size: 24px;
+	float: right;
+	padding-top: 50px;
 }
 
 .main-nav li {
-	float: right;
 	display: inline;
-	margin-right: 40px;
+	margin-left: 40px;
 	margin-top: 50px;
 	margin-bottom: 42px;
+	/* float: right; */	
 }
 
 .main-nav a {
@@ -49,10 +53,6 @@ body {
 
 .dropdown-content a {
 	
-}
-
-.index-logo {
-	float: left;
 }
 
 .dropdown-content {
