@@ -19,6 +19,8 @@ a {
 .header-container {
 	width: 1920px;
 	height: 110px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .main-nav {
@@ -58,6 +60,8 @@ a {
 .question-section-container {
 	width: 1920px;
 	height: 197px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .index-content {
@@ -65,7 +69,9 @@ a {
 	background-size: cover;
 }
 
-.main-container {
+.index-content-container {
+	margin-left: auto;
+	margin-right: auto;
 	width: 1920px;
 	height: 1130px;
 }
