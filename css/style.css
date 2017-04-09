@@ -207,7 +207,8 @@ body {
 	font-family: 'Open sans', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	padding-top: 7px;	
+	padding-top: 7px;
+	padding-bottom: 30px;	
 }
 
 .btn {
@@ -218,7 +219,7 @@ body {
 	color: #fff;
 	background-color: #ff5722;
 	padding: 19px 30px 19px 25px;
-	margin-top: px;	
+	position: absolute;
 }
 
 .btn:hover {
