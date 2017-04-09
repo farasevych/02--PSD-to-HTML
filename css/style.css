@@ -157,4 +157,61 @@ body {
 	height: 1130px;
 }
 
+.texture-item {
+	max-width: 270px;
+	float: left;
+	padding-right: 30px;
+}
+
+.aperiam {
+	padding-right: 0px;
+}
+
+.idex-content-title {
+	font-size: 72px;
+	font-weight: 300;
+	font-family: 'Open sans', sans-serif;
+	text-transform: uppercase;
+	padding-top: 130px;
+}
+
+.expect {
+	font-weight: 800;
+}
+
+.idex-content-text {
+	font-family: 'Open sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.texture-name {
+	font-family: 'Open sans', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	color: #0398d6;
+}
+
+.texture-item b {
+	font-family: 'Open sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.texture-item p {
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;	
+}
+
+.btn {
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #ff5722;
+	padding: 19px 30px 19px 25px;
+	margin-top: 33px;
+}
 /* задать цвет фона картинок */
