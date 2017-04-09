@@ -173,7 +173,7 @@ body {
 	font-family: 'Open sans', sans-serif;
 	text-transform: uppercase;
 	padding-top: 130px;
-	padding-bottom: 47px;
+	padding-bottom: 46px;
 }
 
 .expect {
@@ -184,7 +184,7 @@ body {
 	font-family: 'Open sans', sans-serif;
 	font-size: 22px;
 	font-weight: 300;
-	padding-bottom: 93px;
+	padding-bottom: 88px;
 }
 
 .texture-name {
@@ -192,6 +192,8 @@ body {
 	font-size: 30px;
 	font-weight: 800;
 	color: #0398d6;
+	padding-top: 36px;
+	padding-bottom: 4px;
 }
 
 .texture-item b {
@@ -214,6 +216,10 @@ body {
 	color: #fff;
 	background-color: #ff5722;
 	padding: 19px 30px 19px 25px;
-	margin-top: 33px;
+	margin-top: px;	
+}
+
+.btn:hover {
+	opacity: 0.8;
 }
 /* задать цвет фона картинок */
