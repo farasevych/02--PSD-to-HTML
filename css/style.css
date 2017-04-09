@@ -83,14 +83,6 @@ body {
 
 
 
-.slider {
-	width: 1920px;
-	height: 700px;
-}
-
-
-
-
 
 
 .question-section{
@@ -107,7 +99,7 @@ body {
 
 .question-section-container p {
 	float: left;
-	margin-top: 67px;
+	margin-top: 58px;
 	max-width: 730px;	
 }
 
@@ -225,4 +217,29 @@ body {
 .btn:hover {
 	opacity: 0.8;
 }
+
+
+
+.slider-container {
+	width: 1920px;
+	height: 699px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.slider {
+	width: 1170px;
+	height: 699px;
+}
+
+.slide-heading {
+	font-family: 'Lato', sans-serif;
+	font-size: 92px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+
+
 /* задать цвет фона картинок */
