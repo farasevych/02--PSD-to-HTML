@@ -99,10 +99,20 @@ body {
 }
 
 .question-section-container {
-	width: 1920px;
+	width: 1170px;
 	height: 197px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.question-section-container p {
+	float: left;
+	margin-top: 67px;
+	max-width: 730px;	
+}
+
+.question-section-container a {
+	float: right;
 }
 
 .question-section-text {
@@ -121,6 +131,10 @@ body {
 	text-transform: uppercase;
 	border: 2px #fff solid;
 	padding: 28px 45px 25px 48px;
+	margin-top: 59px;
+
+	
+	
 }
 
 .question-section-btn:hover {
@@ -139,7 +153,7 @@ body {
 .index-content-container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1920px;
+	width: 1170px;
 	height: 1130px;
 }
 
