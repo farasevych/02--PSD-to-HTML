@@ -16,14 +16,14 @@ body {
 }
 
 .main-header {
-	background-color: #141a1d;	
+	background-color: #141a1d;
 }
 
 .header-container {
 	width: 1920px;
 	height: 110px;
 	margin-left: auto;
-  margin-right: auto;
+	margin-right: auto;
 }
 
 .index-logo {
@@ -31,13 +31,8 @@ body {
 }
 
 .main-nav {
-	float: r;
-	/*padding-top: 25px;*/
-	margin-right: px;
-  margin-left: 805px;
-  
+	margin-left: 805px;  
 }
-
 
 .main-nav a {
 	color: #637076;
@@ -45,24 +40,14 @@ body {
 	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 24px;
-  margin-top: 0px;
-  
-  float: left;
-  text-align: center;
-  padding: 50px 0px 40px 30px;
+	float: left;
+	text-align: center;
+	padding: 50px 0px 40px 30px;
 }
 
 .main-nav a:hover {
 	color: #fff;
 }
-
-
-
-.main-nav {
-	overflow: ;
-}
-
-
 
 .dropdown-content {
 	display: none;
@@ -80,7 +65,6 @@ body {
 	padding: 12px 16px 12px 30px;
 	text-align: left;
 	margin-top: 0px;
-
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -92,14 +76,8 @@ body {
 }
 
 .dropdown:hover .dropdown-content { 
-	display: block; /* При выделении пункта курсором мыши отображается подменю */
+	display: block;
 }
-
-
-
-
-
-
 
 
 
@@ -120,6 +98,10 @@ body {
 	height: 197px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.question-section-text {
+	font-size: 38px;
 }
 
 .index-content {
