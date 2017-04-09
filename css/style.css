@@ -88,6 +88,11 @@ body {
 	height: 700px;
 }
 
+
+
+
+
+
 .question-section{
 	background-color: #ff5722;
 	background-size: cover;
@@ -102,7 +107,29 @@ body {
 
 .question-section-text {
 	font-size: 38px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
 }
+
+.question-section-btn {
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px #fff solid;
+	padding: 28px 45px 25px 48px;
+}
+
+.question-section-btn:hover {
+	font-weight: bold;
+}
+
+
+
+
 
 .index-content {
 	background: url(../img/index-content-bg.jpg) 50% 0;
