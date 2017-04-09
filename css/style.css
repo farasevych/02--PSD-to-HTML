@@ -173,6 +173,7 @@ body {
 	font-family: 'Open sans', sans-serif;
 	text-transform: uppercase;
 	padding-top: 130px;
+	padding-bottom: 47px;
 }
 
 .expect {
@@ -183,6 +184,7 @@ body {
 	font-family: 'Open sans', sans-serif;
 	font-size: 22px;
 	font-weight: 300;
+	padding-bottom: 93px;
 }
 
 .texture-name {
