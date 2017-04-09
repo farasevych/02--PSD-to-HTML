@@ -89,7 +89,8 @@ body {
 
 .slider-section {
 
-
+	background-image: url(../img/slide1-bg.jpg) ;
+	background-size: cover;
 	background-color: #000;
 
 }
@@ -111,6 +112,8 @@ body {
 	text-transform: uppercase;
 	float: left;
 	color: #fff;
+
+	margin-top: 175px;
 }
 
 
