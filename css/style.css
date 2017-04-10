@@ -28,6 +28,8 @@ body {
 
 .index-logo {
 	float: left;
+	width: 444px; 
+	height: 110px;
 }
 
 .main-nav {
@@ -182,8 +184,6 @@ body {
 
 
 
-
-
 .index-content {
 	background: url(../img/index-content-bg.jpg) 50% 0;
 	background-size: cover;
@@ -270,4 +270,76 @@ body {
 
 
 
+@media screen and (max-width: 1300px){
+	body {
+		max-width: 1300px;
+	}
 
+	.header-container {
+		max-width: 1170px;
+		height: 90px;
+	}
+
+	.main-nav {
+		margin-left: 250px;  
+	}
+
+	.main-nav a {
+		padding: 35px 0px 40px 10px;
+		font-size: 18px;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		min-width: 215px;
+		height: 225px;
+		background-color: #141a1d;
+		margin-top: 90px;
+		margin-left: 175px;
+	}
+
+	.dropdown-content a {
+		float: none;
+	
+		padding: 12px 16px 12px 30px;
+		text-align: left;
+		margin-top: 0px;
+		font-size: 14px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		text-transform: none; 
+}
+
+	.index-logo img {		
+		width: 344px; 
+		height: 90px;
+	}
+
+
+	.slider {
+		max-width: 1170px;
+	}
+
+	.slide-heading {
+		font-size: 72px;
+		width: 900px;
+	}
+
+	.question-section-container {
+		max-width: 1170px;
+	}
+
+	.index-content-container {
+		max-width: 1170px;
+	}
+
+	.question-section-btn {
+		margin-top: -51px;
+	}
+
+	.question-section-container p {
+		margin-top: -50px;
+	}
+
+}
