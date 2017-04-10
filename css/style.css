@@ -84,13 +84,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
 .slider-section {
 
 	background-image: url(../img/slide1-bg.jpg) ;
@@ -128,7 +121,6 @@ body {
 
 
 
-
 .question-section{
 	background-color: #ff5722;
 	background-size: cover;
@@ -144,7 +136,7 @@ body {
 .question-section-container p {
 	float: left;
 	margin-top: 58px;
-	max-width: 730px;	
+	max-width: 800px;	
 }
 
 .question-section-container a {
@@ -279,4 +271,3 @@ body {
 
 
 
-/* задать цвет фона картинок */
