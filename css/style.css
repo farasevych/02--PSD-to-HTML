@@ -74,7 +74,12 @@ body {
 }
 
 .dropdown-content a:hover {
-	background-color: #00a1df;  
+	background-color: #00a1df;	
+}
+
+.dropdown-content a:hover::after {
+	content: "->"
+	
 }
 
 .dropdown:hover .dropdown-content { 
