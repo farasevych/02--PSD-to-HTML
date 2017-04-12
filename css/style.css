@@ -78,20 +78,21 @@ body {
 	background-color: #00a1df;	
 }
 
-::after {
-	position: absolute;
-}
 
 .dropdown-content a:hover::after {
   content: " ";
   position: absolute;
   width:10px;
   height: 10px;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  right: 20px;
-  top: 5px;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  right: 10px;
+  top: 15px;
 
+}
+
+.dropdown-content a::after{
+  transform: rotate(45deg);
 }
 
 .dropdown:hover .dropdown-content { 
