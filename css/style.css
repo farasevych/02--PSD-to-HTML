@@ -70,16 +70,28 @@ body {
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	text-transform: none; 
+	text-transform: none;
+	position: relative;
 }
 
 .dropdown-content a:hover {
 	background-color: #00a1df;	
 }
 
+::after {
+	position: absolute;
+}
+
 .dropdown-content a:hover::after {
-	content: "->"
-	
+  content: " ";
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  right: 20px;
+  top: 5px;
+
 }
 
 .dropdown:hover .dropdown-content { 
